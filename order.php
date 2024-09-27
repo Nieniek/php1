@@ -12,21 +12,27 @@ $rogale=$_POST['rogale'];
 $bulka=$_POST['bulka'];
 $sokow=$_POST['sokow'];
 $suma=(0.99*$rogale)+(1.29*$bulka)+(2.45*$sokow);
-
+$sum=($rogale)+($bulka)+($sokow);
+$srogale=(0.99*$rogale);
+$sbulka=(1.29*$rogale);
+$ssokow=(2.45*$rogale);
 echo<<<END
 <th2>Podsumowanie zamówienia</h2>
-<table border="1" callpadding="10" callspacing="0">
+<table border="1" callpadding="10" callspacing="0" bgcolor="darkgreen">
 <tr>
-<td> Rogal (0.99PLN/szt)</td><td>$rogale</td>
+<td bgcolor="grey">Nazwa Towaru</td><td bgcolor="grey">Ilość sztuk</td><td bgcolor="grey">Wartośc PLN</td>
 </tr>
 <tr>
-<td> Bulka (1.29PLN/szt)</td><td>$bulka</td>
+<td bgcolor="lightgrey"> Rogal (0.99PLN/szt)</td><td bgcolor="lightgrey">$rogale </td><td bgcolor="lightgrey">$srogale PLN</td>
 </tr>
 <tr>
-<td> sokow (2.45PLN/szt)</td><td>$sokow</td>
+<td bgcolor="lightgrey"> Bulka (1.29PLN/szt)</td><td bgcolor="lightgrey">$bulka </td><td bgcolor="lightgrey">$sbulka PLN</td>
 </tr>
 <tr>
-<td> SUMA</td><td>$suma</td>
+<td bgcolor="lightgrey"> sokow (2.45PLN/szt)</td><td bgcolor="lightgrey">$sokow </td><td bgcolor="lightgrey">$ssokow PLN</td>
+</tr>
+<tr>
+<td bgcolor="darkgrey"> SUMA</td><td bgcolor="darkgrey">$sum </td><td bgcolor="darkgrey">$suma PLN</td>
 </tr>
 </table>
 <br><a href="index.php">Powrót do strony głownej</a>

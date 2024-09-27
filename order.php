@@ -19,20 +19,20 @@ $ssokow=(2.45*$rogale);
 echo<<<END
 <th2>Podsumowanie zamówienia</h2>
 <table border="1" callpadding="10" callspacing="0" bgcolor="darkgreen">
-<tr>
-<td bgcolor="grey">Nazwa Towaru</td><td bgcolor="grey">Ilość sztuk</td><td bgcolor="grey">Wartośc PLN</td>
+<tr bgcolor="grey">
+<td>Nazwa Towaru</td><td>Ilość sztuk</td><td>Wartośc PLN</td>
 </tr>
-<tr>
-<td bgcolor="lightgrey"> Rogal (0.99PLN/szt)</td><td bgcolor="lightgrey">$rogale </td><td bgcolor="lightgrey">$srogale PLN</td>
+<tr  bgcolor="lightgrey">
+<td> Rogal (0.99PLN/szt)</td><td>$rogale </td><td>$srogale PLN</td>
 </tr>
-<tr>
-<td bgcolor="lightgrey"> Bulka (1.29PLN/szt)</td><td bgcolor="lightgrey">$bulka </td><td bgcolor="lightgrey">$sbulka PLN</td>
+<tr  bgcolor="lightgrey">
+<td> Bulka (1.29PLN/szt)</td><td>$bulka </td><td>$sbulka PLN</td>
 </tr>
-<tr>
-<td bgcolor="lightgrey"> sokow (2.45PLN/szt)</td><td bgcolor="lightgrey">$sokow </td><td bgcolor="lightgrey">$ssokow PLN</td>
+<tr  bgcolor="lightgrey">
+<td> sokow (2.45PLN/szt)</td><td>$sokow </td><td>$ssokow PLN</td>
 </tr>
-<tr>
-<td bgcolor="darkgrey"> SUMA</td><td bgcolor="darkgrey">$sum </td><td bgcolor="darkgrey">$suma PLN</td>
+<tr bgcolor="darkgrey">
+<td> SUMA</td><td>$sum </td><td>$suma PLN</td>
 </tr>
 </table>
 <br><a href="index.php">Powrót do strony głownej</a>
